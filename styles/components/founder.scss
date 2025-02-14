@@ -1,0 +1,48 @@
+.founder {
+    padding: 70px 0px;
+    position: relative;
+    &--box {
+        display: flex;
+        align-items: flex-end;
+    }
+    &--img {
+        width: 372px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 80px;
+        img {
+            border-radius: 20px;
+        }
+    }
+    &--title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 69px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &--text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.05em;
+        color: #333333;
+        margin-top: 44px;
+    }
+    &--right {
+        width: 490px;
+    }
+    &--fon-left {
+        position: absolute;
+        left: 0;
+        top: -144px;
+    }
+    &--soat {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+}

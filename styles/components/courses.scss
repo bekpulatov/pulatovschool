@@ -1,0 +1,178 @@
+.courses {
+    position: relative;
+    padding: 65px 0px;
+    &--fon-right {
+        position: absolute;
+        right: 0;
+        top: 208px;
+        z-index: -1;
+    }
+    &--title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 69px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+    }
+    &--box {
+        margin-left: -25px;
+        margin-right: -25px;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &--item {
+        padding-left: 25px;
+        padding-right: 25px;
+        flex-basis: 30.5%;
+        max-width: 30.5%;
+    }
+    &--block {
+        padding: 25px;
+        background: #DEDEDE;
+        box-shadow: 0px 0px 52px -23px rgba(39, 39, 39, 0.42);
+        border-radius: 32px;
+    }
+    &--img {
+        position: relative;
+        width: 100%;
+        height: 262px;
+        border-radius: 26px;
+        img {
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            border-radius: 26px;
+        }
+    }
+    &--block-text {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+
+            color: #333333;
+        }
+    }
+    &--block-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #1D1D1B;
+    }
+    &--btn {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #1D1D1B;  
+        padding: 7px 0px;
+        width: 100%;
+        background: #A4FD08;
+        border: 1.5px solid #1D1D1B;
+        border-radius: 8px;
+        margin-top: 10px;    
+        cursor: pointer;  
+        text-align: center;
+    }
+}
+.reader {
+    padding: 40px 0px;
+    &--title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        color: #1D1D1B;
+    }
+    &--box {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    &--left {
+        width: 322px;
+    }
+    &--slider {
+        width: 804px;
+    }
+    &--text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+
+        letter-spacing: 0.05em;
+
+        color: #1D1D1B;
+        margin-top: 25px;
+    }
+    &--item {
+        padding: 19px 25px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+    }
+    &--item-img {
+        height: 90px;
+        position: relative;
+        width: 90px;
+        margin-right: 20px;
+        img {
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    }
+    &--fullname {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 15px;
+        /* or 94% */
+        
+        text-transform: uppercase;
+        
+        color: #014ED8;        
+    }
+    &--job {
+        margin: 5px 0px;
+    }
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    display: none;
+} 

@@ -1,0 +1,146 @@
+.newlife {
+    position: relative;
+    padding-bottom: 60px;
+    &--title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 107px;
+        line-height: 114px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #1D1D1B;   
+        margin-top: 74px;
+        svg {
+            height: 65px;
+            margin: 0px -20px;
+        }
+    }
+    &--bottom {
+        margin-top: 30px;
+    }
+    &--bottom-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #1D1D1B;        
+    }
+    &--bottom-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        letter-spacing: 0.05em;
+        color: #1D1D1B;
+    }
+    &--fon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    &--rec-online {
+        margin-top: 140px;
+        transform: rotate(-13deg);
+        padding: 40px 0px;
+        background-color: #A4FD08;
+        width: 100%;
+        margin-left: -35px;
+        border: 1px solid #1D1D1B;
+    }
+    &--note {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    &--circle-bottom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+        margin-top: 83px;
+        width: 78px;
+        height: 78px;
+        background: #1D1D1B;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        .top-svg {
+            transform: translateY(10px);
+            transition: ease .2s;
+        }
+        .bottom-svg {
+            transform: translateY(60px);
+            transition: ease .2s;
+        }
+        &:hover {
+            .top-svg {
+                transform: translateY(-60px);
+                transition: ease .2s;
+            }
+            .bottom-svg {
+                transform: translateY(-5px);
+                transition: ease .2s;
+            }
+        }
+    }
+    &--fon-left {
+        position: absolute;
+        left: 0;
+    }
+    &--goal {
+        position: absolute;
+        left: 0;
+        top: 70%;
+        z-index: 1;
+    }
+    &--sience {
+        position: absolute;
+        right: 244px;
+        top: 69%;
+        
+    }
+    &--blink {
+        font-size: 40px;
+        line-height: 40px;
+        font-style: normal;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+#newlife--heart {
+    animation: move-around 1s infinite;
+}
+@keyframes move-around {
+    0% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: translate(2);
+    }
+}
+.newlife--note img {
+    animation: move-y 2s infinite;
+}
+@keyframes move-y {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(42px);
+    }
+    75% {
+        transform: translateY(20px);
+    }
+    // 100% {
+    //     transform: translateY(42px);
+    // }
+}

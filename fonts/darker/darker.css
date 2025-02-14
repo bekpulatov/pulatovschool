@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Darker';
+    src: local('Darker Light'), local('Darker-Light'), url('DarkerGrotesque-Black.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Darker';
+    src: local('Darker Regular'), local('Darker-Regular'), url('DarkerGrotesque-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Darker';
+    src: local('Darker Medium'), local('Darker-Medium'), url('DarkerGrotesque-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Darker';
+    src: local('Darker SemiBold'), local('Darker-SemiBold'), url('DarkerGrotesque-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Darker';
+    src: local('Darker Bold'), local('Darker-Bold'), url('DarkerGrotesque-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Darker';
+    src: local('Darker ExtraBold'), local('Darker-ExtraBold'), url('DarkerGrotesque-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Darker';
+    src: local('Darker Black'), local('Darker-Black'), url('DarkerGrotesque-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+

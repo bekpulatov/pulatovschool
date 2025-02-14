@@ -1,0 +1,493 @@
+@media(max-width: 1570px ) {
+    .header--fon {
+        left: 0;
+    }
+}
+@media(max-width: 1200px ) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header--fon {
+        left: -164px;
+    }
+    .courses {
+        overflow: hidden;
+    }
+    .cases--modal-flex {
+        flex-wrap: wrap;
+    }
+    .cases--modal-img {
+        width: 100%;
+        margin-right: 0;
+    }
+    .cases--modal-box {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+@media(max-width: 1127px ) {
+    .reader--box {
+        flex-wrap: wrap;
+    }
+    .reader--slider {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media(max-width: 1024px ) {
+    .newlife--title {
+        font-size: 43px;
+        line-height: 43px;
+        margin-top: 10px;
+    }
+    .newlife--title svg {
+        height: 26px;
+        margin: 0px -10px;
+    }
+    .newlife--note img {
+        width: 500px;
+    }
+    .header--right {
+        display: none;
+    }
+}
+@media(max-width: 768px ) {
+    .modal-content {
+        width: 100%;
+    }
+    .newlife--note {
+        top: 100px;
+    }
+    .newlife--goal {
+        top: 42%;
+    }
+    .newlife--rec-online {
+        transform: rotate(23deg);
+    }
+    .newlife--rec-online {
+        margin-top: 282px;
+        padding: 24px 0px;
+    }
+    .newlife--blink {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .newlife--rec-online {
+        width: 133%;
+        margin-left: -69px;
+    }
+    .header--fon {
+        display: none;
+    }
+    .newlife {
+        overflow: hidden;
+    }
+    .newlife--sience {
+        position: absolute;
+        right: 0px;
+        top: 56%;
+        z-index: 1;
+    }
+    .ourabout {
+        padding: 40px 0px;
+    }
+    .ourabout--header {
+        display: block;
+    }
+    .ourabout .w-50 {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .ourabout--flex {
+        display: block;
+    }
+    .ourabout .w-15, .ourabout .w-20, .ourabout .w-40,.ourabout .w-24,.ourabout .w-32,.ourabout .w-41 {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .ourabout--flex {
+        display: block;
+    }
+    .ourabout--title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 37px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #1D1D1B;
+    }
+    .ourabout--title img {
+        height: 25px;
+    }
+    .newlife {
+        padding-bottom: 0;
+    }
+    .founder--box {
+        display: block;
+    }
+    .founder--img {
+        width: 100%;
+    }
+    .founder--title {
+        font-size: 47px;
+        line-height: 49px;
+        margin-top: 10px;
+    }
+    .founder--soat {
+        position: absolute;
+        right: 25px;
+        top: 359px;
+    }
+    .founder--right {
+        width: 100%;
+    }
+    .founder {
+        padding: 0px;
+    }
+    .cases--title {
+        font-size: 44px;
+        line-height: 48px;
+    }
+    .cases--box {
+        margin-top: 10px;
+        display: none;
+    }
+    .cases {
+        padding: 20px 0px;
+    }
+    .cases--box {
+        flex-wrap: nowrap;
+    }
+    .cases--item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .cases--box {
+        overflow: auto;
+    }
+    .courses {
+        padding: 0;
+    }
+    .courses--title {
+        font-size: 44px;
+        line-height: 45px;
+    }
+    .courses--box {
+        margin-top: 25px;
+    }
+    .courses--box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .courses--item {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .reader--box {
+        justify-content: unset;
+        flex-wrap: wrap;
+    }
+    .reader--slider {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .reader--title {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .reader--item {
+        padding: 10px;
+    }
+    .reader--fullname {
+        margin-bottom: 10px;
+    }
+    .reader--svg {
+        margin-top: 5px;
+    }
+    .result {
+        padding: 0;
+    }
+    .result--title {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .result--box {
+        margin-top: 20px;
+    }
+    .result--box {
+        display: block;
+    }
+    .result--left {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .result--img {
+        height: 400px;
+        position: relative;
+        img {
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    }
+    .result--tab {
+        display: flex;
+        flex-basis: 100%;
+        max-width: 100%;
+        overflow: auto;
+        margin-top: 10px;
+    }
+    .result--tab-i {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .speaker--title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .cases--fon-right, .cases--fon-bottom {
+        display: none;
+    }
+    .speaker--box {
+        padding: 20px 0px;
+    }
+    .speaker--box .swiper-slide.swiper-slide-active {
+        height: 477px;
+        position: relative;
+        width: 100% !important;
+    }
+    .speaker--block {
+        bottom: -123px;
+        left: 0px;
+    }
+    .speaker--box .mySwiper2{
+        padding-bottom: 200px;
+    }
+    .speaker--block {
+        display: none;
+    }
+    .swiper-slide-active .speaker--block{
+        display: block;
+    }
+    .speaker--box .swiper-button-prev {
+        left: 61%;
+    }
+    .employ {
+        padding: 0px;
+    }
+    .employ--title {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .employ--item {
+        justify-content: unset;
+        flex-wrap: wrap;
+    }
+    .employ--box {
+        padding: 25px;
+    }
+    .team--title {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .team {
+        padding: 20px 0px;
+        display: none;
+    }
+    .team--tabs {
+        margin: 20px 0px;
+        overflow: auto;
+        width: 100%;
+    }
+    .team--tab {
+        margin: 0px 5px;
+    }
+    .team--block {
+        flex-wrap: nowrap;
+    }
+    .team--block {
+        overflow: auto;
+    }
+    .team--block-i {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .footer--box {
+        flex-wrap: wrap;
+    }
+    .footer {
+        padding: 25px 0px;
+    }
+    .footer--right {
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .footer--menu-head {
+        margin-bottom: 13px;
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .courses--item {
+        margin-bottom: 15px;
+    }
+    .media-none {
+        display: flex!important;
+    }
+    .team-none {
+        display: block!important;
+    }
+    .cases--bottom-add {
+        width: 100%;
+    }
+    .team--block .swiper-pagination {
+        bottom: 1px;
+    }
+    .header--menus {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        svg {
+            margin-bottom: 5px;
+        }
+        z-index: 9999;
+    }
+    .header--responsive {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        top: -300px;
+        left: 0;
+        background-color: #000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition:all 0.5s;
+        height: 0;
+        z-index: 100;
+        &.show {
+            top: 0;
+            height: 100%;
+            overflow: visible;
+        }
+    }
+    .header--responsive .header--item{
+        color:#fff;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 10px 0px;
+    }
+    .cases--modal-btn {
+        flex-wrap: wrap;
+    }
+    .cases--modal-btns {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .cases--modal-btns.black {
+        margin-right: 0;
+    }
+    .modal {
+        padding: 25px;
+    }
+    .phone-fixed {
+        display: flex;
+    }
+    .phone-fixed-desktop {
+        display: none;
+    }
+}
+@media(max-width: 576px ) {
+    #overlay img {
+        width: 120px;
+        height: 120px;
+    }
+    .newlife--circle-bottom {
+        display: none;
+    } 
+    .newlife--note {
+        top: 323px;
+        img {
+            width: 250px;
+        }
+    }
+    .newlife--sience {
+        position: absolute;
+        right: 0px;
+        top: 40%;
+        z-index: 1;
+    }
+    .ourabout--card {
+        padding: 76px 26px;
+    }
+    .founder--soat {
+        display: none;
+    }
+    .cases--item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .courses--item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .courses--box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .team--block-i {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .courses--fon-right {
+        display: none;
+    }
+    .cases {
+        overflow: hidden;
+    }
+    .founder--img {
+        img {
+            width: 100%;
+        }
+    }
+    .founder--text {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .courses--item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer--call {
+        margin-top: 20px;
+    }
+    .newlife, .ourabout, .founder, .cases, .courses, .reader, .result, .speaker, .employ, .team, .footer {
+        overflow: hidden;
+    }
+    .team--tab {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media(max-width: 400px ) {
+    .team--tab {
+        padding: 9px 5px;
+    }
+    .employ--left-text {
+        font-size: 22px;
+        line-height: 24px;
+    }
+}
